@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+:root{
+    --cor01: #1F0802;
+    --cor02: #1C646D;
+    --cor03: #CEF09D;
+    --cor04: #38184C;
+    --cor05: #A0CD60;
+
+    --font01: Arial, Helvetica, sans-serif;
+    --font02: "Bebas Neue", sans-serif;
+    --font03: "Comfortaa", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cor01);
+}
+
+.esquerdo{
+    background-color: var(--cor04);
+    opacity: 50%;
+    width: 50%;
+    height: 500px;
+    margin: 90px 0px 0px 7px;
+    border-radius: 30px;
+}
+
+.esquerdo h1{
+    color: var(--cor03);
+    font-family: var(--font02);
+    font-size: 50px;
+    padding: 88px 0px 0px 0px;
+    text-align: center;
+}
+
+.esquerdo h2{
+    color: var(--cor05);
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    font-family: var(--font03);
+}
+
+main{
+    background-color: #fff;
+    width: 50%;
+    margin-left: 50%;
+
+}
