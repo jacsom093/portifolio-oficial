@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 :root{
-    --cor01: #1F0802;
+    --cor01: #120401;
     --cor02: #1C646D;
     --cor03: #CEF09D;
-    --cor04: #38184C;
+    --cor04: #2b103c84;
     --cor05: #A0CD60;
 
     --font01: Arial, Helvetica, sans-serif;
@@ -21,17 +21,19 @@ body{
     background-color: var(--cor01);
 }
 
+
 .esquerdo{
     background-color: var(--cor04);
-    opacity: 50%;
-    width: 50%;
+    width: 40%;
     height: 500px;
     margin: 90px 0px 0px 7px;
     border-radius: 30px;
+    position: fixed;
+    border: 1px solid var(--cor03);
 }
 
 .esquerdo h1{
-    color: var(--cor03);
+    color: var(--cor02);
     font-family: var(--font02);
     font-size: 50px;
     padding: 88px 0px 0px 0px;
@@ -45,9 +47,12 @@ body{
     font-family: var(--font03);
 }
 
-main{
-    background-color: #fff;
-    width: 50%;
-    margin-left: 50%;
-
+.direito{
+    background-color: var(--cor04);
+    width: 40%;
+    height: 100vh;
+    float: right;
+    margin-right: 20px;
+    border: 1px solid var(--cor03);
+    border-radius: 30px;
 }
